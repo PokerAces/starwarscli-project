@@ -49,10 +49,10 @@ public class CLI {
                     throw new RuntimeException(e);
                 }
             }
-            System.out.print("Enter name to search or \"quit\" > ");
+            System.out.print("Enter name to search or \"\\quit\" > ");
             Scanner sc = new Scanner(System.in);
             var line = sc.nextLine();
-            if (line.equalsIgnoreCase("quit")) {
+            if (line.equalsIgnoreCase("\\quit")) {
                 isQuit = true;
                 client.disconnect();
             } else {
