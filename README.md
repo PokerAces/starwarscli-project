@@ -11,7 +11,7 @@ The console connects to a local socket.io data store hosted at "http://localhost
 ## Run the CLI Console
 1. In the project directory, run:
     - ```mvn exec:java```
-2. At the prompt, enter a search term or "quit" to end the console.
+2. At the prompt, enter a search term or "\quit" to end the console.
 
  
 
